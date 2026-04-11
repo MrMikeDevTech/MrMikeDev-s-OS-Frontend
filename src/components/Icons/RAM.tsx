@@ -1,0 +1,23 @@
+import type { SVGProps } from "react";
+
+export function Ram({ className, ...props }: { className?: string; props?: SVGProps<SVGSVGElement> }) {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            aria-hidden="true"
+            className={className}
+            {...props}
+            viewBox="0 0 24 24"
+        >
+            <path d="M12 12v-2m0 8v-2m4-4v-2m0 8v-2M2 11h1.5M20 18v-2m.5-5H22M4 18v-2m4-4v-2m0 8v-2" />
+            <rect width="20" height="10" x="2" y="6" rx="2" />
+        </svg>
+    );
+}
