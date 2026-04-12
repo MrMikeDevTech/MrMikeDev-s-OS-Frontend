@@ -1,6 +1,6 @@
 import ConectionBadge from "./ConectionBadge";
 import IconBadge from "./IconBadge";
-import { MrMikeDev, Refresh, LogOut } from "./Icons";
+import { MrMikeDev, LogOut } from "./Icons";
 import useAuthStore from "../hooks/useAuthStore";
 import { useNavigate } from "react-router";
 import { Logout } from "../services/Auth";
