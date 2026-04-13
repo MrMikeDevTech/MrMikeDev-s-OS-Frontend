@@ -24,7 +24,3 @@ jobs:
             - name: Build
               run: |
                   bun run build
-
-            - name: Restart Systemd Service
-              run: |
-                  sudo systemctl restart mrmikedevs-os-frontend.service
